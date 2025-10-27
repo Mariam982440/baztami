@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 body{
-background-color: #e0e7ff;
+background-color: #f3f4f8;
 }
 header {
   background-color: white;
@@ -21,4 +21,24 @@ margin: 2%;
 }
 .logo img{
 width: 30%;
+}
+.stats-container{
+    display: flex;
+    justify-content: space-between;
+    border: red 3px solid;
+    width: 96%;
+    margin: auto;
+}
+.stat-card{
+    background-color: white;
+  border: 2px solid #e0e7ff;
+  border-radius: 13px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3% 3%;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  width: 32%;
+  height: 32%;
 }
